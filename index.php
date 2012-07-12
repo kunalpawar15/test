@@ -1,13 +1,14 @@
 <?php
 
 
-$baseUrl = 'index.php?page=invitedUser';
+
 
 if(!isset($_GET['action']))
 {
 	/************** list users   ****************/
 	
-	include 'header.php';
+	// include
+        include 'header.php';
 	echo '<div class="main_container white_bg">
 			<div class="content">';
 			
