@@ -1,8 +1,4 @@
 <?php
-
-
-
-
 if(!isset($_GET['action']))
 {
 	/************** list users   ****************/
@@ -11,29 +7,14 @@ if(!isset($_GET['action']))
         include 'header.php';
 	echo '<div class="main_container white_bg">
 			<div class="content">';
-			
-			
-        
-        
-        
-        
-        
+
 		echo '<ul class="pagination">
 			<li><h2>You are here :</h2></li>
 			<li><a href="#">Invited Users</a></li>
 			</ul>';
-			
-                
-                
-                
-                
+
 	include 'ntfn.php';
 	
-        
-        
-        
-        
-        
 	/********* calculate users list and total users **********/
 	
 	$totalFbInvited       = User::getTotalFbInvitedUsers();
@@ -52,15 +33,6 @@ if(!isset($_GET['action']))
 	
 	?>
 	
-
-
-
-
-
-
-
-
-
 
 	<script>
 		$(function() {
@@ -118,9 +90,7 @@ if(!isset($_GET['action']))
 		  }
 		  
 		  ?>
-		  
-		  
-       
+		
       </table>
      
 	 <table class="general_table hr_sep12">
