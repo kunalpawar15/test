@@ -1,7 +1,6 @@
 <?php
 
 
-
 $baseUrl = 'index.php?page=invitedUser';
 
 if(!isset($_GET['action']))
