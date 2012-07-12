@@ -13,13 +13,27 @@ if(!isset($_GET['action']))
 			<div class="content">';
 			
 			
+        
+        
+        
+        
+        
 		echo '<ul class="pagination">
 			<li><h2>You are here :</h2></li>
 			<li><a href="#">Invited Users</a></li>
 			</ul>';
 			
+                
+                
+                
+                
 	include 'ntfn.php';
 	
+        
+        
+        
+        
+        
 	/********* calculate users list and total users **********/
 	
 	$totalFbInvited       = User::getTotalFbInvitedUsers();
@@ -38,6 +52,16 @@ if(!isset($_GET['action']))
 	
 	?>
 	
+
+
+
+
+
+
+
+
+
+
 	<script>
 		$(function() {
 			$( "#datepicker_from" ).datepicker();
