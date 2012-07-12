@@ -6,5 +6,6 @@
  */
 
 
-echo 'Hi this is a test';
+echo 'Dumb guy , Hi this is a test';
+
 ?>
